@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/rootLayout"
+    android:gravity="center"
+    android:background="@color/game"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagecar"
+        android:layout_width="900dp"
+        android:layout_height="750dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/car_logo"
+        android:gravity="center"></ImageView>
+
+    <TextView
+        android:id="@+id/NameGame"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-350dp"
+        android:background="#B3000000"
+        android:text="Car Crash"
+        android:textAlignment="center"
+        android:textColor="@color/game"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_margin="-150dp"
+        android:gravity="center"
+        android:text="@string/go"
+        app:backgroundTint="#DD1814" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="411dp"
+        android:layout_height="36dp"
+        android:layout_margin="0dp"
+        android:text="Score : 0"
+        android:textAlignment="center"
+        android:textColor="@color/game"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:background="#B3000000"/>
+
+</LinearLayout>
